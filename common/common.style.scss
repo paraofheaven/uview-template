@@ -1,0 +1,43 @@
+// 定义内外边距，历遍1-80
+@for $i from 0 through 80 {
+	// 只要双数和能被5除尽的数
+	@if $i % 2 == 0 or $i % 5 == 0 {
+		// 定义上下外边距
+		.u-m-tb-#{$i} {
+			margin: $i + rpx 0 !important;
+		}
+		// 定义左右外边距
+		.u-m-lr-#{$i} {
+			margin: 0 $i + rpx !important;
+		}
+		// 定义上下内边距
+		.u-p-tb-#{$i} {
+			padding: $i + rpx 0 !important;
+		}
+		// 定义左右内边距
+		.u-p-lr-#{$i} {
+			padding: 0 $i + rpx !important;
+		}
+	}
+}
+.u-font-bold {
+	font-weight: bold;
+}
+.u-border-bottom {
+	border-bottom: 1rpx solid $border-color;
+}
+.main-color {
+	color: $main-color;
+}
+.orange {
+	color: $orange;
+}
+.green {
+	color: $green;
+}
+.grey {
+	color: $grey;
+}
+.white {
+	color: $white;
+}

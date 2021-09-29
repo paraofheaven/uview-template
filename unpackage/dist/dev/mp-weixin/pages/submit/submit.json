@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "列表表单",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-cell-group": "/uview-ui/components/u-cell-group/u-cell-group",
+    "u-cell-item": "/uview-ui/components/u-cell-item/u-cell-item",
+    "u-table": "/uview-ui/components/u-table/u-table",
+    "u-tr": "/uview-ui/components/u-tr/u-tr",
+    "u-td": "/uview-ui/components/u-td/u-td",
+    "v-toast": "/components/v-toast/v-toast"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "微信功能体验",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-cell-group": "/uview-ui/components/u-cell-group/u-cell-group",
+    "u-cell-item": "/uview-ui/components/u-cell-item/u-cell-item",
+    "u-avatar": "/uview-ui/components/u-avatar/u-avatar",
+    "v-toast": "/components/v-toast/v-toast"
+  }
+}
